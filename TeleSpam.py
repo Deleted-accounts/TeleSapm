@@ -15,8 +15,8 @@ if os.path.isfile('spamer.txt'):
     api_hash = data[1]
 
 else:
-    api_id = input('Enter api_id: ')
-    api_hash = input('Enter api_hash: ')
+    api_id = input('Enter api_id:24806409 ')
+    api_hash = input('Enter api_hash:49710840a1ee2b25a36a1f6ec4d97119 ')
     with open('spamer.txt', 'w') as a:
         a.write(api_id + '\n' + api_hash)
 
